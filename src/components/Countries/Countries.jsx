@@ -16,7 +16,6 @@ export default function Countries() {
         <div>
             <h3>Countries: {countries.length}</h3>
             <div className="country-container">
-                
             {
                 countries.map(country => <Country key={country} country={country}></Country>)
             }
